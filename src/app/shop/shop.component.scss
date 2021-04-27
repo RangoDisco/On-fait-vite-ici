@@ -1,0 +1,15 @@
+.articles{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background: #262626;
+    color: white;
+    border: 1px solid white;
+}
+.card img{
+    align-self: center;
+}

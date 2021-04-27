@@ -1,0 +1,10 @@
+<section class="articles">
+    <div class="card" style="width: 18rem;" *ngFor="let article of articles">
+        <img [src]="article.img" class="card-img-top" alt="Image de l'article {{article.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{article.name}}</h5>
+          <p class="card-text">{{article.price}} €</p>
+          <button (click)="addToCart(article, articles)" class="btn btn-info">Ajouter au panier</button>
+        </div>
+      </div>
+</section>

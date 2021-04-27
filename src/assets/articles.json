@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Airpods",
+        "price": 205,
+        "img": "https://fakeimg.pl/250x250/262626/fff?text=Article 1"
+    },
+    {
+        "id": 2,
+        "name": "Presonus Studio 26c",
+        "price": 199,
+        "img": "https://fakeimg.pl/250x250/262626/fff?text=Article 2"
+    },
+    {
+        "id": 3,
+        "name": "Sennheiser HD-650",
+        "price": 333,
+        "img": "https://fakeimg.pl/250x250/262626/fff?text=Article 3"
+    }
+]

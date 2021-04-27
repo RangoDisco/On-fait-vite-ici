@@ -1,0 +1,10 @@
+<section class="panier">
+    <div class="card" style="width: 18rem;" *ngFor="let article of userCart">
+        <img [src]="article.img" class="card-img-top" alt="Image de l'article {{article.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{article.name}}</h5>
+          <p class="card-text">{{article.price}} €</p>
+          <button (click)="deleteFromCart(article, userCart)" class="btn btn-info">Retirer du Panier</button>
+        </div>
+      </div>
+</section>
